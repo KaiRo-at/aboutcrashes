@@ -1,0 +1,14 @@
+CACHE MANIFEST
+
+# 2013-02-14
+manifest.webapp
+js/aboutcrashes.js
+style/aboutcrashes.css
+style/icon16.png
+style/icon32.png
+style/icon48.png
+style/icon64.png
+style/icon128.png
+
+NETWORK:
+*

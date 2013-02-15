@@ -1,0 +1,21 @@
+{
+  "name": "About Crashes",
+  "description": "Access crash reports submitted by your Firefox OS device.",
+  "launch_path": "/index.html",
+  "permissions": {
+    "device-storage:apps": {
+      "description": "Read crash reports on the device."
+    }
+  },
+  "developer": {
+    "name": "Robert Kaiser",
+    "url": "http://www.kairo.at/"
+  },
+  "icons": {
+    "16": "/style/icon16.png",
+    "32": "/style/icon32.png",
+    "48": "/style/icon48.png",
+    "64": "/style/icon64.png",
+    "128": "/style/icon128.png"
+  }
+}

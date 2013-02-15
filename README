@@ -1,0 +1,12 @@
+This web app, intended for testers, makes crash reports submitted by a Firefox
+OS device accessible.
+
+This app is destined to be listed in the Firefox Marketplace,
+but not developed far enough yet.
+
+The main repo is http://git-public.kairo.at/?p=aboutcrashes.git;a=summary but
+it's listed on GitHub at https://github.com/KaiRo-at/aboutcrashes for
+convenience for potential contributors. See the TODO for tasks that you can help
+with.
+
+Please don't use GitHub for issue tracking but http://bugzilla.kairo.at/
