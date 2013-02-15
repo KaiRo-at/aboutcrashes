@@ -10,3 +10,33 @@ convenience for potential contributors. See the TODO for tasks that you can help
 with.
 
 Please don't use GitHub for issue tracking but http://bugzilla.kairo.at/
+
+
+Notes:
+<KaiRo> is there any way to do rapid development on something that needs to be a certified app?
+<KaiRo> if I need to package and sign stuff for every typo or other step in development, that really sucks
+<fabrice> you don't
+<fabrice> KaiRo: use https://github.com/fabricedesre/b2gremote to push your certified package to the phone
+<KaiRo> fabrice: still needs me to package stuff up every time?
+* KaiRo misses the old Developer Mode
+<fabrice> KaiRo: for now yes
+<KaiRo> as insecure as it was
+<KaiRo> fabrice: grr
+<fabrice> KaiRo: or, you can just host it
+<KaiRo> fabrice: I'd really like to have it as a "hosted app" (actually, on a host in the local wifi) but with device-storage:apps permission if possible (while developing)
+<fabrice> KaiRo: that's possible: just set "type": "certified" in your manifest.webapp
+<KaiRo> fabrice: but thanks for showing me this way at least, maybe I'll try it
+<KaiRo> fabrice: ah, that sounds interesting
+<fabrice> KaiRo: that gives you what the old dev-mode had
+<KaiRo> fabrice: and then I need to push that with your add-on?
+<fabrice> yep
+<KaiRo> ok, that's good, I can work with that fine :)
+<fabrice> point to the directory where there's you manifest.webapp and the metadata.json 
+<KaiRo> metadata.json?
+<fabrice> KaiRo: the metadata.json looks like:
+<fabrice> {
+<fabrice> "origin": "https://mobile.twitter.com",
+<fabrice> "manifestURL": "https://mobile.twitter.com/cache/twitter.webapp"
+<fabrice> }
+<KaiRo> fabrice: thanks, I'll look into that, sounds helpful
+<fabrice> KaiRo: let me know if you run into any issues

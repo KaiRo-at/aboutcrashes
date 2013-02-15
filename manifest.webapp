@@ -2,6 +2,7 @@
   "name": "About Crashes",
   "description": "Access crash reports submitted by your Firefox OS device.",
   "launch_path": "/index.html",
+  "type": "certified",
   "permissions": {
     "device-storage:apps": {
       "description": "Read crash reports on the device."
